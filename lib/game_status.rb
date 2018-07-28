@@ -34,6 +34,10 @@ end
 
 def full?(board)
   board.all? do|item|
-    item.nil?
+    if(item.nil?)
+      return false
+    else
+      return true
+    end
   end
 end
