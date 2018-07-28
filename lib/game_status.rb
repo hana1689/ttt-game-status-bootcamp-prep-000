@@ -36,8 +36,7 @@ def full?(board)
   board.all? do |item|
     if(item.nil?)
       return false
-    else
-      return true
     end
   end
+  return true
 end
