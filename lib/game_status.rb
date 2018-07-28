@@ -34,7 +34,7 @@ end
 
 def full?(board)
   board.any? do |item|
-    if(item.nil?)
+    if(item == " ")
       return false
     end
   end
