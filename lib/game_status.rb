@@ -59,6 +59,7 @@ end
 
 def winner?(board)
   if(won?(board))
+    value = won?(board)
     
   end
 end
