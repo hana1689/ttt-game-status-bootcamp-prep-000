@@ -58,9 +58,8 @@ def over?(board)
 end
 
 def winner(board)
-  if(won?(board) != false)
+  if(won?(board))
     value = won?(board)
-    print(value)
     if(value.include?("X"))
       return "X"
     else
