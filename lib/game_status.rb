@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do|item|
+  board.all? do |item|
     if(item.nil?)
       return false
     else
