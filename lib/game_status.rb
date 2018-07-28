@@ -63,9 +63,9 @@ def winner(board)
     if(value.include?("X"))
       return "X"
     else
-      retun "O"
+      return "O"
     end
   else
-    retun nil
+    return nil
   end
 end
