@@ -60,7 +60,7 @@ end
 def winner(board)
   if(won?(board))
     value = won?(board)
-    if(value.include?("X"))
+    if(board[value].include?("X"))
       return "X"
     else
       return "O"
