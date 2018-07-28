@@ -64,5 +64,6 @@ def winner?(board)
       return "X"
     else
       retun "O"
+    end
   end
 end
