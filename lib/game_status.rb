@@ -62,5 +62,7 @@ def winner?(board)
     value = won?(board)
     if(value.include?("X"))
       return "X"
+    else
+      retun "O"
   end
 end
