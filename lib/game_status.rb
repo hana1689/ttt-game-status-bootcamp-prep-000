@@ -65,5 +65,7 @@ def winner?(board)
     else
       retun "O"
     end
+  else
+    retun nil
   end
 end
