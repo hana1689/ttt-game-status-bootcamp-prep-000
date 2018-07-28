@@ -12,6 +12,7 @@ def empty_board?(board)
       return false
     else
       return true
+    end
   end
 end
 
