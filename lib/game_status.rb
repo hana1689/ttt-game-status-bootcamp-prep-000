@@ -60,10 +60,12 @@ end
 def winner(board)
   if(won?(board))
     value = won?(board)
-    if(board[value].include?("X"))
-      return "X"
-    else
-      return "O"
+    value.each do |item|
+      if(board[value].include?("X"))
+        return "X"
+      else
+        return "O"
+      end
     end
   else
     return nil
