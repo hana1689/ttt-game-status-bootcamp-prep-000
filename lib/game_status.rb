@@ -60,6 +60,6 @@ end
 def winner?(board)
   if(won?(board))
     value = won?(board)
-    
+    if(value)
   end
 end
