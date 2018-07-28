@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |item|
+  board.any? do |item|
     if(item == " ")
       return false
     end
